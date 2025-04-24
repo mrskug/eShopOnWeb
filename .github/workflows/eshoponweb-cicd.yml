@@ -9,7 +9,7 @@ env:
   LOCATION: swedencentral
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: ${{ secrets.SUBSCRIPTION_ID }}
-  WEBAPP-NAME: eshoponweb-webapp-gha
+  WEBAPP-NAME: wa-eshoponweb-webapp-gha-skug
 
 
 jobs:
