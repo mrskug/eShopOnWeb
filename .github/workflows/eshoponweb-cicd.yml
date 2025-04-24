@@ -8,7 +8,7 @@ env:
   RESOURCE-GROUP: rg-az400-gha
   LOCATION: swedencentral
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: $SUBSCRIPTION_ID
+  SUBSCRIPTION-ID: ${{ secrets.SUBSCRIPTION_ID }}
   WEBAPP-NAME: eshoponweb-webapp-gha
 
 
